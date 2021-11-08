@@ -1,0 +1,10 @@
+G1=tf(100*[0.1,1],[conv([100,1],[0.01,1])]);
+G2=tf([100/sqrt(10),100],[conv([1,0,0],[1/(100*sqrt(10)),1])]);
+G3=tf(100*[10,0,0],[conv([1,0.1,1],[0.1,1])]);
+w=10e-3:0.1:10e4;
+[x1,y1]=bd_asymp(G1,w);
+[x2,y2]=bd_asymp(G2,w);
+[x3,y3]=bd_asymp(G3,w);
+figure(1);semilogx(x1,y1),grid;
+figure(2);semilogx(x2,y2),grid;
+figure(3);semilogx(x3,y3),grid;
