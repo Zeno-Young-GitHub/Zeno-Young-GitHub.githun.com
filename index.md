@@ -28,4 +28,4 @@
 - **Project 3: Binocular matching assisted by structured light**
 #### Other than hardware devices, we still need programme to help us analyses the data. We use Matlab to match the two pictures. Finally we achieve pixel - level matching accuracy.
 
-#### All files and part of codes related to above projects can be found on my homepage.
+#### All files and part of codes related to above projects can be found in my repository.
