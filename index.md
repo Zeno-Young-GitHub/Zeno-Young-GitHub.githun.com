@@ -8,7 +8,7 @@
       <p><b>address: Tianjing University, Nankai District, Tianjin, China</b></p>
     </td>
     <td width="25%">
-      <img src="/10AE9F4F80BADC31247A3EFD77EDDB88.jpg" width="100%">               Identification Photo
+      <img src="/mmexport1637686756765.jpg" width="100%">               Identification Photo
     </td>
   </tr>
 </table>
